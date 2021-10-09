@@ -1,0 +1,10 @@
+CREATE TABLE product (
+  id_product int(11) PRIMARY KEY AUTO_INCREMENT,
+  name varchar(40),
+  brand varchar(40),
+  type varchar(40),
+  quantity int(11),
+  price int(11),
+  id_store varchar(40)
+);
+  
