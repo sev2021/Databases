@@ -1,0 +1,15 @@
+Week 1 Lab
+Introduction 
+E-Commerce applications rely heavily on the implementation of databases to allow for the creation of dynamic web content as well as a full record keeping of orders and customers . This task is designed to afford you an opportunity to identify how complex this data is.    
+
+Task One 
+Select any e-commerce application of your choice and document as best you can the information that this application relies on to function effectively. Document in list format the information you feel this application uses. When constructing your answer please look at all aspects of the application and try to make an informed decision as to what data is needed. Hint, this will be made up of data that is available through the user interface and data that is not available to you as the general user. You must try and determine what data the application needs that is not available to the general user.    
+
+Task Two 
+After you have exhaustively determined the required data for the application you must now try and identify what type of date each piece of information is stored in. For example Phone Numbers will be stored as a Number.  
+
+Task Three 
+After you have exhaustively determined the required data types for the application you must now try and identify how the data is linked to together. This must be done using a mapping system on the page.  
+
+Task Four  
+After the allocated time has passed save your work as firstname.surname. lab1 and upload this the provided Moodle link. This work is not graded as part of your final course grade but will allow you to determine a starting point for the course content and material understanding 
