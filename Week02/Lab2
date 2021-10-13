@@ -1,0 +1,27 @@
+USE SQL statements in the environment you set up in week one to:
+
+·         Select everything from the staff table
+
+·         Find the address of branch no 5
+
+·         Determine how many branches are in London
+
+·         Identify which branch John White works in
+
+·         Identify the role of Julie
+
+·         Count how many private owners there are
+
+·         Identify any private owner that lives in Glasgow
+
+·         Count how many Properties for rent there are in Dublin
+
+·         Find the biggest rent value in property for rent
+
+·         What is the first name of the client who has an email address astewart@hotmail.com
+
+·         Select only the comment from the viewing table sort in reverse alphabetical order and identify the first comment returned
+
+·         How many managers are there in the staff table
+
+·         Select all staff from the staff table, sort by salary descending and identify the date of birth of the least paid worker.
