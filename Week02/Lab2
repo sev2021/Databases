@@ -1,27 +1,40 @@
 USE SQL statements in the environment you set up in week one to:
 
-·         Select everything from the staff table
+- Select everything from the staff table
+SELECT * FROM staff;
 
-·         Find the address of branch no 5
+- Find the address of branch no 5
+SELECT city, postcode, street FROM branch WHERE branchNo = 'B005';
 
-·         Determine how many branches are in London
+- Determine how many branches are in London
+SELECT COUNT(branchNo) FROM branch WHERE city = 'London';
 
-·         Identify which branch John White works in
+- Identify which branch John White works in
+SELECT branchNo FROM staff WHERE fName = 'John' AND lName = 'White';
 
-·         Identify the role of Julie
+- Identify the role of Julie
+SELECT position FROM staff WHERE fName = 'Julie';
 
-·         Count how many private owners there are
+- Count how many private owners there are
+SELECT count(ownerNo) FROM privateowner WHERE ownerNo != '';
 
-·         Identify any private owner that lives in Glasgow
+- Identify any private owner that lives in Glasgow
+SELECT * FROM privateowner WHERE address LIKE '%Glasgow%';
 
-·         Count how many Properties for rent there are in Dublin
+- Count how many Properties for rent there are in Dublin
+SELECT COUNT(city) FROM propertyforrent WHERE city LIKE '%Dublin%';
 
-·         Find the biggest rent value in property for rent
+- Find the biggest rent value in property for rent
+SELECT MAX(rent) FROM propertyforrent;
 
-·         What is the first name of the client who has an email address astewart@hotmail.com
+- What is the first name of the client who has an email address astewart@hotmail.com
+SELECT fName FROM client WHERE email = 'astewart@hotmail.com';
 
-·         Select only the comment from the viewing table sort in reverse alphabetical order and identify the first comment returned
+- Select only the comment from the viewing table sort in reverse alphabetical order and identify the first comment returned
+SELECT MIN(comment) FROM viewing WHERE comment != '';
 
-·         How many managers are there in the staff table
+- How many managers are there in the staff table
+SELECT COUNT(position) FROM staff WHERE position = 'Manager';
 
-·         Select all staff from the staff table, sort by salary descending and identify the date of birth of the least paid worker.
+- Select all staff from the staff table, sort by salary descending and identify the date of birth of the least paid worker.
+SELECT * FROM staff ORDER BY salary DESC LIMIT 1;
