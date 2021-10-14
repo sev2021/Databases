@@ -37,4 +37,4 @@ SELECT MIN(comment) FROM viewing WHERE comment != '';
 SELECT COUNT(position) FROM staff WHERE position = 'Manager';
 
 - Select all staff from the staff table, sort by salary descending and identify the date of birth of the least paid worker.
-SELECT * FROM staff ORDER BY salary DESC LIMIT 1;
+SELECT DOB FROM staff ORDER BY salary DESC LIMIT 1;
