@@ -1,0 +1,17 @@
+/* Add a new member of staff to the database whose name is Liam McCabe, position is assistant, salary is 88000, gender is M DOB is 19 January 1907 you can add him to any branch you like. */
+INSERT INTO staff VALUES("SL42", "Liam", "McCabe", "Assistant", "F", "1907-01-19", 88000, "B003");
+
+ /* Give all staff a salary increase of 50% */
+ UPDATE staff SET salary = salaey * 1.5;
+ 
+ /* Change the Date joined in registrations for all records relating to branch 003 to be todays date */
+ UPDATE registration SET dateJoined = CURDATE() WHERE branchNo = "B003";
+
+SELECT curdate();
+SELECT curtime();
+
+/* Delete any user from client whose email address is john.kay@gmail.com */
+DELETE FROM client WHERE email = "john.kay@gmail.com";
+
+/* Delete everything from the property For rent table */
+DELETE FROM propertyforrrent;
