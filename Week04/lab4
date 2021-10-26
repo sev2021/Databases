@@ -3,7 +3,7 @@ CREATE TABLE orders (userId char(5), OrderNo char(5), Status char(5));
 CREATE TABLE brands (brandId char(5), brandName varchar(11) PRIMARY KEY);
 CREATE TABLE webfiles (fileId char(5), fileURL varchar(99) PRIMARY KEY);
 CREATE TABLE orderitems (OrderNo char(5) PRIMARY KEY, Itemid char(5), Quantity int, Price decimal(10,2), linePrice decimal(10,2));
-CREATE TABLE Items(itemNo char(5) PRIMARY KEY, Price Price decimal(10,2), imageURL varchar(22), Description varchar(22), Brand varchar(11));
+CREATE TABLE items(itemNo char(5) PRIMARY KEY, Price decimal(10,2), imageURL varchar(22), Description varchar(22), Brand varchar(11));
 ALTER TABLE items ADD FOREIGN KEY (imageURL) REFERENCES webfiles(fileURL);
 ALTER TABLE items ADD FOREIGN KEY (Brand) REFERENCES brands(brandName);
 ALTER TABLE orderitems ADD FOREIGN KEY (Itemid) REFERENCES items(itemNo);
