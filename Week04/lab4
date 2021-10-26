@@ -27,3 +27,9 @@ INSERT INTO webfiles VALUES ("f002", "/16GB_Corsair_f002.jpg");
 INSERT INTO webfiles VALUES ("f003", "/16GB_Crucial_f003.jpg");
 INSERT INTO webfiles VALUES ("f004", "/8GB_GSkill_f004.jpg");
 INSERT INTO webfiles VALUES ("f005", "/16GB_Hynix_f005.jpg");
+
+INSERT INTO orderitems VALUES ("r001", "i002", 2, 135, 140);
+INSERT INTO orderitems VALUES ("r002", "i004", 1, 35, 35);
+INSERT INTO orderitems VALUES ("r003", "i005", 1, 45, 45);
+INSERT INTO orderitems VALUES ("r004", "i002", 1, 65, 70);
+INSERT INTO orderitems VALUES ("r005", "i003", 2, 105, 110);
