@@ -15,3 +15,9 @@ INSERT INTO users VALUES ("C002", "Ben234" , "gr62rhmmgg343_4h", "2002-02-02");
 INSERT INTO users VALUES ("C003", "PeterS" , "343jAsifhh3_f34f", "2001-03-03");
 INSERT INTO users VALUES ("C004", "Janet4" , "DDR_gwhsifhwNFWl", "2002-04-04");
 INSERT INTO users VALUES ("C005", "SeanCC" , "gwgwg3AsirhergIN", "2004-05-05");
+
+INSERT INTO brands VALUES ("B001", "Corsair");
+INSERT INTO brands VALUES ("B002", "Crucial");
+INSERT INTO brands VALUES ("B003", "GSkill");
+INSERT INTO brands VALUES ("B004", "Kingston");
+INSERT INTO brands VALUES ("B005", "Hynix");
