@@ -1,7 +1,7 @@
 CREATE TABLE Users (userId char(5) PRIMARY KEY, Username varchar(11), Password varchar(22), DOB date);
 CREATE TABLE orders (userId char(5), OrderNo char(5), Status char(5));
 CREATE TABLE brands (brandId char(5), brandName varchar(11) PRIMARY KEY);
-CREATE TABLE webfiles (fileId char(5), fileURL varchar(22) PRIMARY KEY);
+CREATE TABLE webfiles (fileId char(5), fileURL varchar(99) PRIMARY KEY);
 CREATE TABLE orderitems (OrderNo char(5) PRIMARY KEY, Itemid char(5), Quantity int, Price decimal(10,2), linePrice decimal(10,2));
 CREATE TABLE Items(itemNo char(5) PRIMARY KEY, Price int, imageURL varchar(22), Description varchar(22), Brand varchar(11));
 ALTER TABLE items ADD FOREIGN KEY (imageURL) REFERENCES webfiles(fileURL);
@@ -21,3 +21,9 @@ INSERT INTO brands VALUES ("B002", "Crucial");
 INSERT INTO brands VALUES ("B003", "GSkill");
 INSERT INTO brands VALUES ("B004", "Kingston");
 INSERT INTO brands VALUES ("B005", "Hynix");
+
+INSERT INTO webfiles VALUES ("f001", "/8GB_Hynix_f001.jpg");
+INSERT INTO webfiles VALUES ("f002", "/16GB_Corsair_f002.jpg");
+INSERT INTO webfiles VALUES ("f001", "/16GB_Crucial_f003.jpg");
+INSERT INTO webfiles VALUES ("f001", "/8GB_GSkill_f004.jpg");
+INSERT INTO webfiles VALUES ("f001", "/16GB_Hynix_f005.jpg");
