@@ -28,6 +28,12 @@ INSERT INTO webfiles VALUES ("f003", "/16GB_Crucial_f003.jpg");
 INSERT INTO webfiles VALUES ("f004", "/8GB_GSkill_f004.jpg");
 INSERT INTO webfiles VALUES ("f005", "/16GB_Hynix_f005.jpg");
 
+INSERT INTO oitems VALUES ("i001", 65, "/16GB_Corsair_f002.jpg", "DDR4 16GB Memory", "Corsair");
+INSERT INTO items VALUES ("i002", 70, "/16GB_Crucial_f003.jpg", "DDR4 16GB Memory", "Crucial");
+INSERT INTO items VALUES ("i003", 55, "/16GB_Hynix_f005.jpg", "DDR4 2*8GB Memory", "Hynix");
+INSERT INTO items VALUES ("i004", 35, "/8GB_GSkill_f004.jpg", "DDR4 8GB Memory", "GSkill");
+INSERT INTO items VALUES ("i005", 45, "/8GB_Hynix_f001.jpg", "DDR4 8GB Memory", "Hynix");
+
 INSERT INTO orderitems VALUES ("r001", "i002", 2, 135, 140);
 INSERT INTO orderitems VALUES ("r002", "i004", 1, 35, 35);
 INSERT INTO orderitems VALUES ("r003", "i005", 1, 45, 45);
