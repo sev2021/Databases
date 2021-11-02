@@ -1,0 +1,6 @@
+Events:EventID, Name, Date, Location, TicketTypes, Website, Status
+Tickets:TicketID, Event, Type, Price, Status
+Customers:CustomerID, Name, Address, Age, 
+Sales:SaleNumber, Custormer, Ticket, Amount, Payment, Status
+
+Payments:PaymentNumber, Status
