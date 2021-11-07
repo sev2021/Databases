@@ -1,0 +1,17 @@
+Week 6 Lab
+Introduction 
+Data modelling is an exceptional concept of relational database construction. The process must follow a set sequence bringing the data from form data to physical database representation. This lab is designed to support you in further understanding the concepts of the process of bringing data all the way to physical data modelling. 
+
+There is no code required for this lab as all your work is recorded in a word document with your explanations included. 
+
+Task One 
+Using the data you created in lab week five explain the process of translating the data from conceptual to logical. When constructing your answer use real examples from the data you have from week five. 
+
+Task Two 
+Using the data from task one, explain the process of translating the data from logical to physical. When constructing your answer use real examples from the data you have from week five. 
+
+Task Three 
+Identify in a maximum of 300 words why the process of data modelling brings the relational database to its best possible representation of any data that needs to be stored in a database system.. 
+
+Task Four 
+Save and upload the lab to this Moodle upload link. 
