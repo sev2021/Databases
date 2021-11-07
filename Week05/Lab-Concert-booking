@@ -4,3 +4,14 @@ Customers:CustomerID, Name, Address, Age,
 Sales:SaleNumber, Custormer, Ticket, Amount, Payment, Status
 
 Payments:PaymentNumber, Status
+########################################EDITED FOR LAB 6
+
+Location: LocationID, Name, Type, Address, Capacity, Status
+Events: EventID, Name, DateTime, Location, Types, WebURL, Status
+Tickets: TicketID, Event, Type, Amount, Price, Status
+Customers: CustomerID, Name, Phone, Email, Age, Status
+Sales: SaleNumber, Custormer, Ticket, Amount, Payment, Status
+
+
+
+
