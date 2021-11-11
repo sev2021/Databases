@@ -16,8 +16,6 @@ Conceptual database model focus on the most essential entities and their relatio
 
 Maping of the conceptual model into a logical model is first step in database desing proces. Mapping from conceptual to logical model allows for best implementation, relations optimalisation and data distribution, at the same time ensuring that there is no loss of information.It turns set of entities and relationships into relational tables. In relational schema it specifies attributes (columns) with each entity as a table. For strong entities it defines primary keys and foreign keys references. 
 
-Seweryn.Sapinski.Lab5concept.drawio
 
-Examples
 
 
