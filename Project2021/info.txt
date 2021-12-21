@@ -1,0 +1,65 @@
+Introduction To Databases CIC_OCT OL
+Lecturer: Mr. Liam McCabe
+Project 2021
+Weight 40%
+Submission Deadline TBC
+Introduction 
+This project is intended to assess  students’ understanding of database design and implementation including Conceptual data modelling, logical & physical data modelling, Data Definition Language, and Structured Query language.
+
+Students are required develop a  database system for a lawnmower sales office. This should include at a minimum data pertaining to:
+•	Stock
+•	Staff
+•	Customers
+•	Orders
+•	Deliverys 
+•	Any other information you feel relevant to the system
+
+Each relation should contain a minimum no of tuples as the students see fit that will allow for accurate querying of the dataset.
+Before designing any dataset you must fully read this document to ensure the questions asked can be answered using the relations you create.
+Task One - Database Design (40% Total)
+Clearly identify all relations to be included in the database. 
+1.	Clearly explain why each relation needs to be included. For example if you have a staff relation explain how this benefits the overall dataset. (8 Marks)
+2.	Identify the relevant entities of the college dataset with their respective attributes, entity types (strong or weak) and primary keys. (8 Marks)
+3.	Identify the relationships, cardinalities and constraints with supporting business rules and assumptions. (8 Marks)
+4.	Draw an ER diagram for the system depicting the entities, relationships, cardinalities, participations using your preferred ERD notation. (8 Marks)
+5.	Convert the entities in the conceptual design into logical dataset(relational model)  .Use a logical layout of entities which is easily understood by any reader.  Ensure that tables are in the correct format to allow for the best possible representation of data. (8 Marks)
+
+Task Two – Create & Populate the Dataset (20% Total)
+Use DDL language to:
+1.	Create the database and all tables specified in the dataset (relational model) to meet the specifications identified in task one. Clearly document all DDL statements used in this process.(10 Marks)
+2.	Populate all database tables with the desired data. Clearly document all DML  statements used in this process (10 Marks)
+
+Ideally this should be done in one full dump SQL statement. If this is done using different statements you may need to put them all together for final submission as the dataset will need to be reproduced by an examiner.
+Task Three – Query The Dataset (40% Total)
+Use MYSQL statements to query and modify the dataset as follows: 
+1.	Change all staff annual leave allowance to 29 days. (2 Marks)
+2.	Modify the status of any order which has been paid to “Shipped”. (2 Marks)
+3.	Delete all orders which have been placed but have not been paid for more than 6 months. (2 Marks)
+4.	Display the first name surname and position of all staff sorting the results so the highest pay are first. (2 Marks)
+5.	Add one new record to each table. (2 Marks)
+6.	Delete one record from all tables. (2 Marks)
+7.	Find the total number of days off for all staff, order this by least days off. (2 Marks)
+8.	Count how many products are in the stock table (rows only not the number of items). (2 Marks)
+9.	Change the roll of all staff who have a job title Office worker to Administrator. (2 Marks)
+10.	Change the status of all products in one category to “on-Special”. (2 Marks)
+11.	Set the delivery method of all orders to “courier”. (2 Marks)
+12.	Update the opening times of the office to say “closed Sundays”. (2 Marks)
+13.	Drop all information contained in the orders relation. (2 Marks)
+14.	Delete all products from the database with a specific manufacturer. (2 Marks)
+15.	Set the office phone number to be 01-7654321. (2 Marks)
+16.	Set the CEO of the firm to be called Michael Dean. (2 Marks)
+17.	Show all staff members who have been working there for longer than 4 years. (2 Marks)
+18.	Show all services (such as lawnmower service agreement, mowing by staff for summer, lawnmower rental etc) that the company offers which run for over 3 months and have a minimum of €20 per month. (2 Marks)
+19.	Identify how many customers have the word road in their address. (1 Marks)
+20.	Create a view that will show the result of a query drawing information from three tables at once. (3 marks)
+
+Submission checklist:
+1.A pdf/word document containing the answers to each of the above questions. Please add all your answers including descriptions, MySQL Scripts and diagrams (ERD, report charts or graphs in this file) for each of the questions where applicable. 
+2. An SQL script file that contains all the SQL statements used for part 2 and part 3. Each answer should have a clear label indicating the question number.
+Submission guidelines
+Each student must submit a report clearly identifying all processes involved in each of the above. This must include clearly labelled screenshots and a detailed narrative of the steps taken. Included in this report should be your ER Diagram.
+
+A comprehensive list of MySQL statements must be provided in a .sql file 
+The SQL file must show clearly each statement used with comments explaining which question the statement relates to.
+
+Reports must be to the correct academic standard properly presented and sufficiently referenced.
