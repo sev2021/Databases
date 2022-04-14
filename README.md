@@ -33,4 +33,6 @@ Maping of the conceptual model into a logical model is first step in database de
   ALTER TABLE person MODIFY COLUMN person_id INT NOT NULL;
   
   SELECT DISTINCT person_title FROM person;
+  
+  https://sqlbolt.com/
 
