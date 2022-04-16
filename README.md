@@ -22,17 +22,18 @@ Maping of the conceptual model into a logical model is first step in database de
   
   DESCRIBE person;
   
-  ALTER TABLE person AUTO_INCREMENT = 1;
-  
-  ALTER TABLE person MODIFY COLUMN person_id INT AUTO_INCREMENT;
-  
-  ALTER TABLE person MODIFY COLUMN person_id INT PRIMARY KEY;
-  
-  ALTER TABLE person DROP PRIMARY KEY;
-  
+  ALTER TABLE person AUTO_INCREMENT = 1;  
+  ALTER TABLE person MODIFY COLUMN person_id INT AUTO_INCREMENT;  
+  ALTER TABLE person MODIFY COLUMN person_id INT PRIMARY KEY;  
+  ALTER TABLE person DROP PRIMARY KEY;  
   ALTER TABLE person MODIFY COLUMN person_id INT NOT NULL;
   
-  SELECT DISTINCT person_title FROM person;
+  SELECT DISTINCT person_title FROM person ORDER BY name LIMIT 2 OFFSET 3;
+  
+  Schema info:
+  
+  SELECT * FROM information_schema.tables;  
+  SELECT * FROM information_schema.column;
   
   https://sqlbolt.com/
 
